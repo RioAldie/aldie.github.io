@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: yellow;
+}
+.container{
+    height: 700px;
+    display: flex;
+    background : url(wave.svg) black;
+    background-size: cover;
+    border: black 2px;
+    position: relative;
+}
+.judul{
+    background: black;
+    color: rgb(248, 210, 55);
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 60px;
+}
+.judul :hover{
+    background: darkgoldenrod;
+    color: black;
+}
+div{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: grey 2px 2px ;
+}
+div :hover{
+        color: #f3ecec;
+        /* background: #2196f3; */
+        box-shadow: 0 0 30px #f1ee17,0 0 40px #e8f854,
+        0 0 80px #bace06;
+        transition-delay: 1s;
+}
+.senin{
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    border: cornsilk 2px;
+    flex-direction: column;
+}
+#senin{
+    font-size: 40px;
+    font-style: italic;
+    background-color: gold;
+    position: relative;
+    text-align: center;
+}
+.selasa{
+    width: 300px;
+    height: 200px;
+    margin-top: 130px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    border: cornsilk 2px;
+    flex-direction: column;
+}
+#selasa{
+    font-size: 40px;
+    font-style: italic;
+    background-color: gold;
+    position: relative;
+    text-align: center
+}
+.rabu{
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    border: cornsilk 2px;
+    flex-direction: column;
+    text-align: center;
+}
+#rabu{
+    font-size: 40px;
+    font-style: italic;
+    background-color: gold;
+    position: relative;
+    text-align: center;
+}
+.kamis{
+    width: 300px;
+    height: 200px;
+    margin-top: 200px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    border: cornsilk 2px;
+    flex-direction: column;
+    text-align: center;
+}
+#kamis{
+    font-size: 40px;
+    font-style: italic;
+    background-color: gold;
+    position: relative;
+    text-align: center;
+}
+.jumat{
+    width: 300px;
+    height: 200px;
+    background: rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    border: cornsilk 2px;
+    flex-direction: column;
+    text-align: center;
+}
+#jumat{
+    font-size: 40px;
+    font-style: italic;
+    background-color: gold;
+    position: relative;
+    text-align: center;
+}
+span{
+ font-size: 32px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-style: oblique;
+ border-radius: 3px;
+}
+
+@media screen and (max-width: 578px){
+    .container{
+        display: inline-block;
+        height: 1200px;
+        transition: 3s;
+    }
+    .judul{
+        width: 330px;
+        box-sizing: content-box;
+        border-radius: 5px;
+    }
+    .senin{
+        margin-top: 5px;
+    }
+    .selasa{
+        margin-top: 5px;
+    }
+    .rabu{
+        margin-top: 5px;
+    }
+    .kamis{
+        margin-top: 5px;
+    }
+    .jumat{
+        margin-top: 5px;
+    }
+}
